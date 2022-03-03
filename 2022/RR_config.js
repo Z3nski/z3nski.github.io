@@ -1,6 +1,6 @@
 var config_data = `
 {
-  "title":"Scouting PASS 2022",
+  "title":"Team 1188 Scouting App",
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
