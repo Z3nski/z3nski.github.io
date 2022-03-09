@@ -135,32 +135,6 @@ var config_data = `
       }
     },
     "endgame": {
-      "Climb Level Attempted": {
-        "code":"cla",
-        "title": "Climb",
-        "type":"radio",
-        "choices":{
-          "1":"0<br>",
-          "2":"1<br>",
-          "3":"2<br>",
-          "4":"3<br>",
-          "a":"4<br>",
-        },
-        "defaultValue":"x"
-      },
-      "Climb Level Scored": {
-        "code":"cls",
-        "title": "Climb Level Scored",
-        "type":"radio",
-        "choices":{
-          "1":"0<br>",
-          "2":"1<br>",
-          "3":"2<br>",
-          "4":"3<br>",
-          "a":"4<br>",
-        },
-        "defaultValue":"x"
-      },
       "Climb Time? [Discuss]": {
         "code":"be",
         "title": "Started climb before EndGame",
