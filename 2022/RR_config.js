@@ -150,8 +150,8 @@ var config_data = `
         "defaultValue":"x"
       },
       "Climb Level Scored": {
-        "code":"cla",
-        "title": "Climb Level Attempted",
+        "code":"clas",
+        "title": "Climb Level Scored",
         "type":"radio",
         "choices":{
           "1":"No Climb<br>",
