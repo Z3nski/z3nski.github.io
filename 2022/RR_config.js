@@ -145,7 +145,6 @@ var config_data = `
           "3":"Mid<br>",
           "4":"High<br>",
           "n":"Traversal<br>",
-          "x":"n/a"
         },
         "defaultValue":"1"
       },
@@ -159,7 +158,6 @@ var config_data = `
           "3":"Mid<br>",
           "4":"High<br>",
           "n":"Traversal<br>",
-          "x":"n/a"
         },
         "defaultValue":"1"
       },
