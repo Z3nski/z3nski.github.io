@@ -144,7 +144,22 @@ var config_data = `
           "2":"Low<br>",
           "3":"Mid<br>",
           "4":"High<br>",
-          "x":"Traversal<br>",
+          "n":"Traversal<br>",
+          "x":"n/a"
+        },
+        "defaultValue":"x"
+      },
+      "Climb Level Scored": {
+        "code":"cla",
+        "title": "Climb Level Attempted",
+        "type":"radio",
+        "choices":{
+          "1":"No Climb<br>",
+          "2":"Low<br>",
+          "3":"Mid<br>",
+          "4":"High<br>",
+          "n":"Traversal<br>",
+          "x":"n/a"
         },
         "defaultValue":"x"
       },
