@@ -75,12 +75,22 @@ var config_data = `
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
+      "Upper Cargo Missed": {
+        "code":"aum",
+        "title": "Uppoer Cargo Missed",
+        "type":"counter"
+      },
       "Lower Cargo Scored": {
         "code":"al",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Auto Aquired Cargo": {
+      "Lower Cargo Missed": {
+        "code":"alm",
+        "title": "Lower Cargo Missed",
+        "type":"counter"
+      },
+      "Auto Aquired Cargo [Maybe Change idk]": {
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
