@@ -147,7 +147,7 @@ var config_data = `
           "n":"Traversal<br>",
           "x":"n/a"
         },
-        "defaultValue":"x"
+        "defaultValue":"1"
       },
       "Climb Level Scored": {
         "code":"clas",
@@ -161,7 +161,7 @@ var config_data = `
           "n":"Traversal<br>",
           "x":"n/a"
         },
-        "defaultValue":"x"
+        "defaultValue":"1"
       },
       "Climb Time? [Discuss]": {
         "code":"be",
