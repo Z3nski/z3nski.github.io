@@ -140,11 +140,11 @@ var config_data = `
         "title": "Climb Level Attempted",
         "type":"radio",
         "choices":{
-          "1":"No Climb<br>",
-          "2":"Low<br>",
-          "3":"Mid<br>",
-          "4":"High<br>",
+          "1":"Low<br>",
+          "2":"Mid<br>",
+          "3":"High<br>",
           "n":"Traversal<br>",
+          "x":"No Climb"
         },
         "defaultValue":"1"
       },
@@ -153,11 +153,11 @@ var config_data = `
         "title": "Climb Level Scored",
         "type":"radio",
         "choices":{
-          "1":"No Climb<br>",
-          "2":"Low<br>",
-          "3":"Mid<br>",
-          "4":"High<br>",
+          "1":"Low<br>",
+          "2":"Mid<br>",
+          "3":"High<br>",
           "n":"Traversal<br>",
+          "x":"No Climb"
         },
         "defaultValue":"1"
       },
