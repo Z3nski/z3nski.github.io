@@ -140,12 +140,11 @@ var config_data = `
         "title": "Climb Level Attempted",
         "type":"radio",
         "choices":{
-          "1":"No Climb<br>",
-          "2":"Low<br>",
-          "3":"Mid<br>",
-          "4":"High<br>",
-          "n":"Traversal<br>",
-          "x":"n/a"
+          "1":"0<br>",
+          "2":"1<br>",
+          "3":"2<br>",
+          "4":"3<br>",
+          "n":"4<br>",
         },
         "defaultValue":"x"
       },
