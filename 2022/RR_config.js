@@ -144,7 +144,7 @@ var config_data = `
           "2":"Low<br>",
           "3":"Mid<br>",
           "4":"High<br>",
-          "n":"Traversal<br>",
+          "x":"Traversal<br>",
         },
         "defaultValue":"x"
       },
