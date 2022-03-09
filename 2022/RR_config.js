@@ -97,9 +97,19 @@ var config_data = `
       }
     },
     "teleop": {
+      "Played Defense Only": {
+        "code":"pd",
+        "title": "Played Defense Only",
+        "type":"bool"
+      },
       "Upper Cargo Scored": {
         "code":"tu",
         "title": "Uppoer Cargo Scored",
+        "type":"counter"
+      },
+      "Upper Cargo Missed": {
+        "code":"tum",
+        "title": "Upper Cargo Missed",
         "type":"counter"
       },
       "Lower Cargo Scored": {
@@ -107,11 +117,62 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+      "Lower Cargo Missed": {
+        "code":"tlm",
+        "title": "Lower Cargo Missed",
+        "type":"counter"
+      },
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
         "type":"bool"
       },
+      "Shooting Spot": {
+        "code":"ss",
+        "title": "Shooting Spot",
+        "type":"field_image",
+        "filename":"2022/field_image.png"
+      }
+    },
+    "endgame": {
+      "Climb Level Attempted": {
+        "code":"cla",
+        "title": "Climb",
+        "type":"radio",
+        "choices":{
+          "1":"0<br>",
+          "2":"1<br>",
+          "3":"2<br>",
+          "4":"3<br>",
+          "a":"4<br>",
+        },
+        "defaultValue":"x"
+      },
+      "Climb Level Scored": {
+        "code":"cls",
+        "title": "Climb Level Scored",
+        "type":"radio",
+        "choices":{
+          "1":"0<br>",
+          "2":"1<br>",
+          "3":"2<br>",
+          "4":"3<br>",
+          "a":"4<br>",
+        },
+        "defaultValue":"x"
+      },
+      "Climb Time? [Discuss]": {
+        "code":"be",
+        "title": "Started climb before EndGame",
+        "type":"bool"
+      },
+      "Num of Robots Climbed [Discuss]": {
+        "code":"cn",
+        "title": "# of alliance bots climbed",
+        "type":"counter"
+      }
+    },
+    "postmatch": {
       "Wallbot?": {
         "code":"wbt",
         "title": "Wallbot?",
@@ -129,54 +190,6 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Shooting Spot": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
-      }
-    },
-    "endgame": {
-      "Climb": {
-        "code":"c",
-        "title": "Climb",
-        "type":"radio",
-        "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
-          "a":"Attempted but failed<br>",
-          "x":"Not attempted"
-        },
-        "defaultValue":"x"
-      },
-      "If climb failed,<br>Last successful rung,<br>if any": {
-        "code":"lsr",
-        "title": "If climb failed,<br>last successful rung,<br>if any",
-        "type":"radio",
-        "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
-          "n":"No successful rung<br>",
-          "x":"n/a"
-        },
-        "defaultValue":"x"
-      },
-      "Started Climb before Endgame": {
-        "code":"be",
-        "title": "Started climb before EndGame",
-        "type":"bool"
-      },
-      "Num of Robots Climbed": {
-        "code":"cn",
-        "title": "# of alliance bots climbed",
-        "type":"counter"
-      }
-    },
-    "postmatch": {
       "Driver Skill": {
         "code":"ds",
         "title": "Driver Skill",
