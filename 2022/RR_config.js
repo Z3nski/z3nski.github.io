@@ -130,19 +130,6 @@ var config_data = `
       }
     },
     "endgame": {
-      "Climb Level Attempted": {
-        "code":"cla",
-        "title": "Climb Level Attempted",
-        "type":"radio",
-        "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "n":"Traversal<br>",
-          "x":"No Climb"
-        },
-        "defaultValue":"x"
-      },
       "Climb Level Scored": {
         "code":"clas",
         "title": "Climb Level Scored",
