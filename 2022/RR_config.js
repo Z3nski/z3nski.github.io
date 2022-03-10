@@ -143,11 +143,11 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Climb Time? [Discuss]": {
-        "code":"be",
-        "title": "Started climb before EndGame",
-        "type":"bool"
-      },
+      "Num of Robots Climbed [Discuss]": {
+        "code":"cn",
+        "title": "# of alliance bots climbed",
+        "type":"counter"
+      }
     },
     "postmatch": {
       "Wallbot?": {
