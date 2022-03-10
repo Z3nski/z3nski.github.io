@@ -89,11 +89,6 @@ var config_data = `
         "code":"alm",
         "title": "Lower Cargo Missed",
         "type":"counter"
-      },
-      "Auto Aquired Cargo": {
-        "code":"ac",
-        "title": "Picked up more cargo?",
-        "type":"bool"
       }
     },
     "teleop": {
