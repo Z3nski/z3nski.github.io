@@ -90,11 +90,6 @@ var config_data = `
         "title": "Lower Cargo Missed",
         "type":"counter"
       },
-      "Auto Aquired Cargo": {
-        "code":"ac",
-        "title": "Picked up more cargo?",
-        "type":"bool"
-      }
     },
     "teleop": {
       "Played Defense Only": {
