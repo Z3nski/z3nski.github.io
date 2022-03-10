@@ -100,9 +100,6 @@ var config_data = `
       "Played Defense Only": {
         "code":"pd",
         "title": "Played Defense Only",
-      "Played Defense Primarily": {
-        "code":"pdp",
-        "title": "Played Defense Primarily",
         "type":"bool"
       },
       "Upper Cargo Scored": {
