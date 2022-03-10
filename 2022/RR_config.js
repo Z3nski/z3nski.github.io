@@ -97,9 +97,9 @@ var config_data = `
       }
     },
     "teleop": {
-      "Played Defense Only": {
+      "Played Defense Primarily": {
         "code":"pd",
-        "title": "Played Defense Only",
+        "title": "Played Defense Primarily",
         "type":"bool"
       },
       "Upper Cargo Scored": {
