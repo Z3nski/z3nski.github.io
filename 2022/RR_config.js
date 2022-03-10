@@ -90,8 +90,16 @@ var config_data = `
         "title": "Lower Cargo Missed",
         "type":"counter"
       },
+      "Auto Aquired Cargo": {
+        "code":"ac",
+        "title": "Picked up more cargo?",
+        "type":"bool"
+      }
     },
     "teleop": {
+      "Played Defense Only": {
+        "code":"pd",
+        "title": "Played Defense Only",
       "Played Defense Primarily": {
         "code":"pdp",
         "title": "Played Defense Primarily",
@@ -117,6 +125,11 @@ var config_data = `
         "title": "Lower Cargo Missed",
         "type":"counter"
       },
+      "Was Defended": {
+        "code":"wd",
+        "title": "Was Defended",
+        "type":"bool"
+      },
       "Shooting Spot": {
         "code":"ss",
         "title": "Shooting Spot",
@@ -125,6 +138,19 @@ var config_data = `
       }
     },
     "endgame": {
+      "Climb Level Attempted": {
+        "code":"cla",
+        "title": "Climb Level Attempted",
+        "type":"radio",
+        "choices":{
+          "1":"Low<br>",
+          "2":"Mid<br>",
+          "3":"High<br>",
+          "n":"Traversal<br>",
+          "x":"No Climb"
+        },
+        "defaultValue":"x"
+      },
       "Climb Level Scored": {
         "code":"clas",
         "title": "Climb Level Scored",
@@ -138,6 +164,16 @@ var config_data = `
         },
         "defaultValue":"x"
       },
+      "Climb Time? [Discuss]": {
+        "code":"be",
+        "title": "Started climb before EndGame",
+        "type":"bool"
+      },
+      "Num of Robots Climbed [Discuss]": {
+        "code":"cn",
+        "title": "# of alliance bots climbed",
+        "type":"counter"
+      }
     },
     "postmatch": {
       "Wallbot?": {
