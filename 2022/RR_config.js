@@ -143,10 +143,10 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Num of Robots Climbed [Discuss]": {
-        "code":"cn",
-        "title": "# of alliance bots climbed",
-        "type":"counter"
+      "Climb Failed?": {
+        "code":"cf",
+        "title": "Climb Failed?",
+        "type":"bool"
       }
     },
     "postmatch": {
