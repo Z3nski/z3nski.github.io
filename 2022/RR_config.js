@@ -202,7 +202,7 @@ var config_data = `
         "type":"bool"
       },
       "Card Foul": {
-        "code":"cf",
+        "code":"cfz",
         "title": "Yellow/Red Card",
         "type":"bool"
       },
