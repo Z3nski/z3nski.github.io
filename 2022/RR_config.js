@@ -133,8 +133,8 @@ var config_data = `
           "1":"Low<br>",
           "2":"Mid<br>",
           "3":"High<br>",
-          "n":"Traversal<br>",
-          "x":"No Climb"
+          "4":"Traversal<br>",
+          "0":"No Climb"
         },
         "defaultValue":"x"
       },
