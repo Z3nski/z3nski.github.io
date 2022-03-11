@@ -134,7 +134,7 @@ var config_data = `
           "2":"Mid<br>",
           "3":"High<br>",
           "4":"Traversal<br>",
-          "0":"No Climb"
+          "X":"No Climb"
         },
         "defaultValue":"x"
       },
