@@ -22,13 +22,12 @@ var config_data = `
         "code":"l",
         "type":"level",
         "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
+          "q":"Quals<br>",
           "qf":"Quarter-Final<br>",
           "sf":"Semi-Final<br>",
           "f":"Final"
         },
-        "defaultValue":"qm",
+        "defaultValue":"q",
         "required":"true"
       },
       "Match #":{
