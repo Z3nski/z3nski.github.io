@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"MILIV",
+        "defaultValue":"2022MILIV",
         "required":"true",
         "disabled":"true"
       },
