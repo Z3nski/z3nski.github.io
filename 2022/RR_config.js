@@ -1,6 +1,6 @@
 var config_data = `
 {
-  "title":"Team 1188 Scouting App",
+  "title":"Team 1188 Scouting",
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
