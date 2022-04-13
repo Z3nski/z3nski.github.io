@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022milak",
+        "defaultValue":"2022micmp4",
         "required":"true",
         "disabled":"true"
       },
