@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"micmp4",
+        "defaultValue":"2022MICMP4",
         "required":"true",
         "disabled":"true"
       },
